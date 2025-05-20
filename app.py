@@ -1,4 +1,12 @@
-import openai
+import streamlit as st
+
+st.title("Test App is Running!")
+st.write("If you see this, Streamlit Cloud is working.")
+
+
+
+
+""" import openai
 import os
 import streamlit as st # Import the Streamlit library
 
@@ -97,4 +105,4 @@ Instructions:
             except openai.APIStatusError as e:
                 st.error(f"OpenAI API returned an error: Status Code {e.status_code} - Response: {e.response.text}")
             except Exception as e:
-                st.error(f"An unexpected error occurred: {e}")
+                st.error(f"An unexpected error occurred: {e}") """
